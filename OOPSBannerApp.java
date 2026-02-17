@@ -1,20 +1,17 @@
-/**
- * OOPSBannerApp
- * Prints large ASCII banner of "OOPS".
- *
- * @author Sanjay
- * @version 2.0
- */
-public class OOPSBannerApp {
+public class OOPSBannerUC3 {
 
     public static void main(String[] args) {
 
-        System.out.println(" *****   *****   *****   ***** ");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println("*     * *     * *     * *     *");
-        System.out.println(" *****   *****   *****   ***** ");
+        String line1 = String.join(" ", "OOOO", "OOOO", "PPPP", "PPPP", "SSSS");
+        String line2 = String.join(" ", "O", "O", "P", "P", "S");
+        String line3 = String.join(" ", "O", "O", "PPPP", "PPPP", "SSSS");
+        String line4 = String.join(" ", "O", "O", "P", "S");
+        String line5 = String.join(" ", "OOOO", "OOOO", "P", "SSSS");
+
+        System.out.println(line1);
+        System.out.println(line2);
+        System.out.println(line3);
+        System.out.println(line4);
+        System.out.println(line5);
     }
 }
